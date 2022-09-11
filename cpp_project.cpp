@@ -92,14 +92,14 @@ private:
 public:
     void createaccount(int &pos, int &acc); // done
     void delete_account(int &pos);          // done
-    void showdata(int pos);                 // done
-    void exportdata(int pos, int acc);      // done
-    void importdata(int pos, int acc);      // done
-    void debit(int pos);                    // done
-    void credit(int pos);                   // done
-    void transfer(int pos);                 // done
-    void login(int pos);                    // done
-    void exporttransaction(int pos);        // in progress....
+    void showdata(int pos);                 
+    void exportdata(int pos, int acc);      
+    void importdata(int pos, int acc);      
+    void debit(int pos);                    
+    void credit(int pos);                   
+    void transfer(int pos);                 
+    void login(int pos);                    
+    void exporttransaction(int pos);        
     void importtransaction(int pos);
     bool adminlogin(string s)
     {
